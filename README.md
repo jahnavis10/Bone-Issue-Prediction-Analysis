@@ -2,6 +2,7 @@
 
 Early detection of bone‐related conditions such as **Osteoporosis** and **Osteoarthritis** is crucial for preventing fractures and improving quality of life.  
 This project walks through a full **data‑science pipeline**—from raw patient data to a deploy‑ready machine‑learning model—that predicts whether an individual has a bone disease based on physiological and lifestyle metrics.
+
 ---
 ## Project Motivation
 * **Clinical Relevance:** Osteoporosis often remains undiagnosed until a fracture occurs. A data‑driven screening tool can prompt earlier diagnostics.  
@@ -12,4 +13,5 @@ Feature Highlights:
 T‑score and BMD show the strongest negative correlation with disease severity.
 Lifestyle factors (exercise frequency, smoking) shift risk distributions.
 Interactive visuals (Seaborn/Matplotlib) illustrate distributions, outliers, and heat‑map correlations—see 01_eda.ipynb for details.
+
 ---
