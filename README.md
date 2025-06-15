@@ -19,7 +19,7 @@ Interactive visuals (Seaborn/Matplotlib) illustrate distributions, outliers, and
 | Model                          | Accuracy | Precision | Recall | F1   |
 | ------------------------------ | -------- | --------- | ------ | ---- |
 | Logistic Regression (baseline) | ⚙️ 0.88  | 0.87      | 0.86   | 0.86 |
-| Random Forest (tuned)          | ⚙️ 0.92  | 0.93      | 0.90   | 0.91 |
+| KNN Algorithm                  | ⚙️ 0.80  | 0.89      | 0.85   | 0.87 |
 
 Cross‑Validation: 5‑fold stratified CV to avoid class‑imbalance bias.
 Hyper‑parameters: GridSearchCV on depth, estimators, class_weight.
